@@ -22,5 +22,22 @@ $cars[] = "BYD";
 print_r($cars);
 echo "\n";
 $user = ["ism" => "Shohjahon", "familya" => "Ro'zmamatov", "t_yili" => 2011];
-echo $user['ism']
+echo $user['ism'];
+print_r($user);
+$user['familya'] = "Komilov";
+echo $user['familya'];
+echo"\n";
+foreach($user as $key => $item) {
+    echo $key." ".$item.", ";
+}
+$sonlar = [];
+$sonlar['ism1'] = "test1";
+$sonlar[0] = 12;
+$sonlar[1] = 19;
+$sonlar['ism'] = "test";
+print_r($sonlar);
+echo"\n";
+$sonlar1 = [8,45,46,8,65,62,5,6,8,2,"test"];
+array_splice($sonlar1,2,4);
+print_r($sonlar1);
 ?>
