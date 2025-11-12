@@ -40,4 +40,17 @@ echo"\n";
 $sonlar1 = [8,45,46,8,65,62,5,6,8,2,"test"];
 array_splice($sonlar1,2,4);
 print_r($sonlar1);
+echo"\n";
+$users = [
+    ["ism" => "Shohjahon", "familya" => "Ro'zmamatov", "t_yili" => 2011],
+    ["ism" => "Murodbek", "familya" => "Jumanazaro'v", "t_yili" => 2012],
+    ["ism" => "Bekzod", "familya" => "Masharipov", "t_yili" => 2013],
+];
+$son = [[3,6,5,[2,8,56]],7,6,4,];
+print_r($users);
+echo $users[1]['ism'];
+echo "\n";
+foreach ($users as $item){
+    echo $item['ism'].", ";
+}
 ?>
