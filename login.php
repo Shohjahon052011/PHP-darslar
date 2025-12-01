@@ -19,7 +19,7 @@ if(isset($_COOKIE['ism'])){
         <label for="">Ismingizni kiriting</label><br>
         <input type="text" name="ism"><br>
         <input type="submit" value="Yuborish">
-    </form>'
+    </form>';
 }
     ?>
 </body>
