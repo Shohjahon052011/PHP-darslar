@@ -28,5 +28,4 @@ var_dump($spark);
 echo "<br>";
 echo "Mashina modeli: ".$spark->model."<br>";
 echo "Mashina rangi: ".$spark->color."<br>";
-
 ?>
